@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "resenas-marcos-digitales-wifi",
+    "name": "Reseñas de Marcos Digitales Wi‑Fi",
+    "shortName": "Reseñas de Marcos",
+    "icon": "frame",
+    "description": "Análisis individuales a fondo de los marcos de fotos digitales con Wi‑Fi más vendidos en Amazon Estados Unidos (Aura Carver, Aura Mason, Frameo, Skylight, Nixplay y Dragon Touch), evaluando pantalla, configuración, almacenamiento y app familiar."
+  },
+  {
+    "slug": "comparativas-marcos-digitales",
+    "name": "Comparativas de Marcos Digitales (VS)",
+    "shortName": "Comparativas VS",
+    "icon": "scale",
+    "description": "Duelos cara a cara entre marcas, tamaños de pantalla (9\", 10.1\", 15.6\"), formatos (4:3 vs 16:10) y sistemas de almacenamiento (nube ilimitada gratuita vs memoria interna de 32 GB con MicroSD)."
+  },
+  {
+    "slug": "marcos-para-padres-y-abuelos",
+    "name": "Marcos Digitales para Padres y Abuelos",
+    "shortName": "Para Padres y Abuelos",
+    "icon": "heart",
+    "description": "Guías para elegir el marco digital más fácil de usar para padres, abuelos y bisabuelos que viven lejos, incluyendo modelos que solo requieren enchufarse a la corriente sin tocar menús."
+  },
+  {
+    "slug": "marcos-por-tamano-y-pantalla",
+    "name": "Marcos por Tamaño y Pantalla (9\", 10\", 15\"+)",
+    "shortName": "Por Tamaño y Pantalla",
+    "icon": "screen",
+    "description": "Selecciones de marcos digitales según las pulgadas de pantalla (8\", 9\", 10.1\", 15.6\" y 21.5\"), resolución (HD, Full HD y 2K), proporción 4:3 o 16:10 y paneles IPS antirreflejos para mesa o pared."
+  },
+  {
+    "slug": "marcos-por-app-y-almacenamiento",
+    "name": "Marcos por App, Nube y Memoria Interna",
+    "shortName": "App y Almacenamiento",
+    "icon": "cloud",
+    "description": "Comparativa de ecosistemas para enviar fotos desde varios familiares (App Aura, App Frameo, correo electrónico Skylight, Nixplay, Google Fotos) y tipos de memoria (nube ilimitada $0/mes vs 32 GB + MicroSD)."
+  },
+  {
+    "slug": "marcos-por-presupuesto-y-ofertas",
+    "name": "Marcos Digitales por Presupuesto en Amazon",
+    "shortName": "Por Presupuesto US$",
+    "icon": "tag",
+    "description": "Rankings de compra en Amazon Estados Unidos clasificados por rango de precio en dólares: menos de US$50, menos de US$80, menos de US$100, gama media US$100–$150 y modelos premium de galería."
+  },
+  {
+    "slug": "configuracion-facil-y-regalo-a-distancia",
+    "name": "Configuración Fácil y Regalo a Distancia",
+    "shortName": "Configurar Regalo",
+    "icon": "gift",
+    "description": "Tutoriales paso a paso para preconfigurar un marco digital antes de enviarlo a otra ciudad o país (con código QR sin abrir la caja o pre-cargando Wi‑Fi, fotos iniciales y apagado nocturno automático)."
+  },
+  {
+    "slug": "enviar-fotos-desde-el-celular-y-familia",
+    "name": "Enviar Fotos desde el Celular y Varios Familiares",
+    "shortName": "Enviar desde Celular",
+    "icon": "phone",
+    "description": "Cómo enviar fotos y videos cortos desde iPhone y Android, cómo invitar a hermanos, nietos y tíos con un código familiar, añadir dedicatorias en pantalla y moderar álbumes a distancia."
+  },
+  {
+    "slug": "guia-de-pantallas-resolucion-y-formatos",
+    "name": "Guía de Pantallas, Resolución y Formatos 4:3 vs 16:10",
+    "shortName": "Pantallas y Formato 4:3",
+    "icon": "sparkles",
+    "description": "Guías técnicas sobre proporción 4:3 vs 16:10, emparejamiento inteligente de 2 fotos verticales (Smart Pairing), densidad de píxeles, calibración de color IPS 178° y sensores de luz ambiente."
+  },
+  {
+    "slug": "almacenamiento-nube-microsd-y-privacidad",
+    "name": "Almacenamiento, Nube, MicroSD y Privacidad",
+    "shortName": "Nube, MicroSD y Privacidad",
+    "icon": "shield",
+    "description": "Cuántas fotos caben en 16 GB, 32 GB o 64 GB, cómo elegir tarjetas MicroSD y memorias USB compatibles, copias de seguridad familiares y privacidad/cifrado de las fotos de los nietos."
+  },
+  {
+    "slug": "solucion-de-problemas-wifi-y-apps",
+    "name": "Solución de Problemas de Wi‑Fi y Aplicaciones",
+    "shortName": "Solución Wi‑Fi y Apps",
+    "icon": "wifi",
+    "description": "Soluciones rápidas cuando el marco de tus padres no conecta al Wi‑Fi (2.4 GHz vs 5 GHz), cómo ayudar a los abuelos a cambiar la clave del router a distancia y corregir fotos rotadas o en cola."
+  },
+  {
+    "slug": "ideas-de-fotografia-familiar-y-decoracion",
+    "name": "Ideas de Fotografía Familiar y Ubicación en Casa",
+    "shortName": "Fotografía y Decoración",
+    "icon": "camera",
+    "description": "Dónde colocar el marco digital en casa de padres y abuelos sin reflejos de ventana, cómo digitalizar fotos antiguas en papel con el celular y crear álbumes sorpresa por cumpleaños o Navidad."
+  }
+]
