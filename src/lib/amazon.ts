@@ -18,8 +18,6 @@ export interface AmazonProductRecommendation {
   title: string;
   subtitle: string;
   features: string[];
-  rating: string;
-  reviewsCount: string;
   categoryType: AmazonCategoryType;
   specs?: {
     screenSize: string;
@@ -93,23 +91,21 @@ export function detectUserAmazonRegion(): AmazonStoreRegion {
 export const CATALOG: Record<string, AmazonProductRecommendation> = {
   AURA_CARVER_10_WIFI: {
     id: "aura-carver-10-wifi",
-    badge: "🏆 #1 El Más Fácil para Padres y Abuelos · Nube Ilimitada Gratis ($0/mes)",
+    badge: "🏆 #1 El Más Fácil para Padres y Abuelos · Nube Ilimitada Gratis",
     title:
       "Aura Carver 10.1\" HD Wi‑Fi Digital Picture Frame — Preconfiguración sin Abrir la Caja, Smart Pairing y Nube Ilimitada",
     subtitle:
       "¿Por qué es el favorito para enviar a padres y abuelos que viven lejos? Trae un código QR de regalo en la caja para que tú cargues las fotos, el mensaje de bienvenida y su Wi‑Fi desde tu celular: ellos solo lo enchufan a la corriente.",
     features: [
       "Pantalla panorámica IPS de 10.1\" (1280×800) con emparejamiento inteligente (Smart Pairing) que une 2 fotos verticales del celular lado a lado sin bordes negros",
-      "Almacenamiento en la nube 100 % ilimitado y gratuito de por vida ($0 de suscripción mensual) para más de 10.000 fotos y videos cortos",
+      "Almacenamiento en la nube 100 % ilimitado y gratuito de por vida para más de 10.000 fotos y videos cortos",
       "Permite invitar a familiares ilimitados (hijos, nietos, hermanos en distintos países) mediante la App gratuita Aura para iPhone/Android o correo electrónico",
     ],
-    rating: "4.8",
-    reviewsCount: "26.500+",
     categoryType: "cloud-unlimited",
     specs: {
       screenSize: "10.1\" HD IPS Antirreflejos (16:10 + Smart Pairing)",
       setupEase: "Ultra Fácil: Código QR de Regalo sin abrir la caja",
-      storageAndCost: "Nube Ilimitada Gratis ($0/mes · sin suscripción)",
+      storageAndCost: "Nube Ilimitada Gratis",
       familySharing: "Familiares Ilimitados vía App Aura (iOS/Android) y Email",
     },
     queryUS: "Aura Carver 10.1 WiFi Digital Picture Frame Free Unlimited Cloud Storage",
@@ -126,15 +122,13 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
     features: [
       "Proporción 4:3 nativa con resolución 2K (1600×1200 px): muestra las fotos de iPhone y Android a pantalla completa sin recortes ni barras laterales",
       "Se sostiene por sí solo en posición vertical (retrato) u horizontal (paisaje) y rota la imagen automáticamente gracias a su acelerómetro interno",
-      "Incluye almacenamiento en la nube ilimitado gratis ($0/mes), altavoz integrado para videos de los nietos y sensor de luz que apaga el marco de noche",
+      "Incluye almacenamiento en la nube ilimitado gratis, altavoz integrado para videos de los nietos y sensor de luz que apaga el marco de noche",
     ],
-    rating: "4.8",
-    reviewsCount: "14.200+",
     categoryType: "aspect-4-3",
     specs: {
       screenSize: "9\" 2K Full HD+ (1600×1200 · Formato 4:3 Rotable)",
       setupEase: "Preconfiguración de Regalo en 2 min desde tu celular",
-      storageAndCost: "Nube Ilimitada Gratis ($0/mes) + Audio para Videos",
+      storageAndCost: "Nube Ilimitada Gratis + Audio para Videos",
       familySharing: "Familiares Ilimitados vía App Aura + Google Fotos / iCloud",
     },
     queryUS: "Aura Mason 9 inch 2K WiFi Digital Picture Frame Free Standing",
@@ -153,13 +147,11 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Usa la App oficial Frameo (iOS y Android) 100 % gratuita sin suscripción: cada familiar añade un código de 10 dígitos y envía fotos con dedicatoria escrita",
       "Pantalla táctil IPS HD de 10.1\" (1280×800) con interfaz en español, rotación automática vertical/horizontal y soporte para mesa o montaje en pared",
     ],
-    rating: "4.7",
-    reviewsCount: "38.900+",
     categoryType: "local-32gb-microsd",
     specs: {
       screenSize: "10.1\" HD IPS Táctil (1280×800 · Mesa o Pared)",
       setupEase: "Fácil: Interfaz en español + Pre-carga de fotos y Wi‑Fi",
-      storageAndCost: "32 GB Internos (~80.000 fotos) + MicroSD ($0/mes)",
+      storageAndCost: "32 GB Internos (~80.000 fotos) + MicroSD",
       familySharing: "Hasta 500+ familiares gratis con la App Frameo",
     },
     queryUS: "Frameo 10.1 Inch WiFi Digital Picture Frame 32GB IPS Touch Screen Auto Rotate",
@@ -178,8 +170,6 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Botón de corazón en la pantalla táctil: cuando tus padres o abuelos tocan el corazón en una foto, tú recibes una notificación de agradecimiento",
       "Modo Regalo (Gift Mode) para precargar fotos antes de que lo abran y memoria interna que permite ver las fotos descargadas incluso en modo offline",
     ],
-    rating: "4.8",
-    reviewsCount: "31.400+",
     categoryType: "email-easy",
     specs: {
       screenSize: "10\" IPS Color Touch Screen (1280×800 · 16:10)",
@@ -203,13 +193,11 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "32 GB de almacenamiento interno más ranura para tarjeta MicroSD y puerto USB-C, sin ningún pago mensual ni suscripción obligatoria",
       "Recibe fotos y videos con sonido desde el celular de hijos y nietos en todo el mundo a través de la aplicación gratuita Frameo",
     ],
-    rating: "4.7",
-    reviewsCount: "11.800+",
     categoryType: "large-screen",
     specs: {
       screenSize: "15.6\" Full HD IPS Táctil (1920×1080 · Mesa o Pared)",
       setupEase: "Letras grandes en español + Apagado nocturno programable",
-      storageAndCost: "32 GB Internos + Ranura MicroSD / USB-C ($0/mes)",
+      storageAndCost: "32 GB Internos + Ranura MicroSD / USB-C",
       familySharing: "Familiares Ilimitados vía App Frameo con subtítulos",
     },
     queryUS: "Frameo 15.6 Inch Large WiFi Digital Picture Frame 1920x1080 FHD IPS Touch Screen 32GB",
@@ -226,15 +214,13 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
     features: [
       "Pantalla de 15\" en proporción 4:3 (1600×1200) con revestimiento mate antirreflejos que elimina el brillo de ventanas y lámparas de sala",
       "Incluye herrajes para colgar en pared (vertical u horizontal) y soporte de aluminio para aparador o mesa",
-      "Almacenamiento en la nube ilimitado y gratuito ($0/mes) con preconfiguración remota desde la App Aura antes de que tus padres abran el regalo",
+      "Almacenamiento en la nube ilimitado y gratuito con preconfiguración remota desde la App Aura antes de que tus padres abran el regalo",
     ],
-    rating: "4.8",
-    reviewsCount: "6.400+",
     categoryType: "large-screen",
     specs: {
       screenSize: "15\" Mate Antirreflejos (1600×1200 · Formato 4:3 Galería)",
       setupEase: "Ultra Fácil: Código de Regalo Aura + Sensor de Luz",
-      storageAndCost: "Nube Ilimitada Gratis ($0/mes · sin cuotas)",
+      storageAndCost: "Nube Ilimitada Gratis",
       familySharing: "Familiares Ilimitados vía App Aura, Web y Email",
     },
     queryUS: "Aura Walden 15 Inch WiFi Digital Picture Frame Anti Glare Mat Wall Mount",
@@ -253,8 +239,6 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Pantalla táctil HD IPS de 10.1\" con cable de alimentación que funciona a la vez como soporte flexible en vertical u horizontal",
       "Envío de fotos desde el celular mediante la App Nixplay (iOS/Android), correo electrónico e integración con Google Fotos",
     ],
-    rating: "4.6",
-    reviewsCount: "24.700+",
     categoryType: "cloud-unlimited",
     specs: {
       screenSize: "10.1\" HD IPS Táctil (1280×800 · 16:10)",
@@ -268,28 +252,26 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
   },
   DRAGON_TOUCH_CLASSIC_10: {
     id: "dragon-touch-classic-10",
-    badge: "💵 Mejor Marco Económico (< US$75) con Memoria Interna, MicroSD y USB",
+    badge: "💵 Mejor Marco Económico con Memoria Interna, MicroSD y USB",
     title:
       "Dragon Touch Classic 10 / Arzopa 10.1\" Wi‑Fi Digital Frame — Pantalla Táctil HD, Memoria Interna y Efecto Madera",
     subtitle:
-      "La opción ideal cuando buscas gastar menos de US$70–$75 en Amazon EE. UU. sin renunciar a conectividad Wi‑Fi: su borde con acabado de madera y paspartú blanco encaja en salas clásicas de padres y abuelos y acepta 4 métodos distintos de carga de fotos.",
+      "La opción ideal cuando buscas gastar precio variable en Amazon en Amazon EE. UU. sin renunciar a conectividad Wi‑Fi: su borde con acabado de madera y paspartú blanco encaja en salas clásicas de padres y abuelos y acepta 4 métodos distintos de carga de fotos.",
     features: [
       "4 formas de recibir fotos: aplicación móvil gratuita (OurPhoto / Frameo), correo electrónico dedicado, tarjeta MicroSD y memoria USB-A",
       "Memoria interna de 16 GB / 32 GB capaz de guardar más de 40.000 fotos sin ningún costo mensual ni suscripción",
       "Interfaz táctil intuitiva en español con pronóstico del clima, reloj calendario opcional para adultos mayores y modo sueño nocturno",
     ],
-    rating: "4.6",
-    reviewsCount: "19.300+",
     categoryType: "budget-value",
     specs: {
       screenSize: "10.1\" HD IPS Táctil con Borde Clásico de Madera",
       setupEase: "Menú en español con modo reloj/calendario para abuelos",
-      storageAndCost: "16 GB / 32 GB Internos + MicroSD + USB ($0/mes)",
+      storageAndCost: "16 GB / 32 GB Internos + MicroSD + USB",
       familySharing: "App Móvil Gratuita + Envío por Correo Electrónico",
     },
     queryUS: "Dragon Touch Classic 10 Digital Picture Frame WiFi IPS Touch Screen",
     queryES: "Dragon Touch Classic 10 marco de fotos digital WiFi tactil",
-    ctaLabel: "Ver Marcos Digitales Wi‑Fi (< US$75) en Amazon",
+    ctaLabel: "Ver Marcos Digitales Wi‑Fi en Amazon",
   },
   ECHO_SHOW_8_10_PHOTOS: {
     id: "echo-show-8-10-photos",
@@ -303,8 +285,6 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Función Drop In y videollamadas manos libres: habla y ve a tus padres o abuelos a distancia en cualquier momento con Alexa en español",
       "Recordatorios por voz de medicamentos, pronóstico del tiempo, música y pantalla con ajuste automático de color (Adaptive Color)",
     ],
-    rating: "4.7",
-    reviewsCount: "89.000+",
     categoryType: "cloud-unlimited",
     specs: {
       screenSize: "8\" HD o 15.6\" Full HD de Pared · Adaptive Color",
@@ -328,8 +308,6 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Permite hacer copias de seguridad completas (Backup) de todas las fotos que la familia ha enviado por Wi‑Fi al marco Frameo",
       "Incluye adaptador SD para insertar fácilmente en cualquier laptop Mac o Windows antes de envolver el marco de regalo",
     ],
-    rating: "4.8",
-    reviewsCount: "142.000+",
     categoryType: "accessory-storage",
     specs: {
       screenSize: "Compatible con Marcos Frameo, Arzopa, Dragon Touch y Kodak",
@@ -469,7 +447,7 @@ export function getContextualAmazonProducts(
     };
   }
 
-  // 5. Marcos Económicos, Presupuesto (< US$50, < US$75, < US$100), Ofertas Amazon
+  // 5. Marcos Económicos, Presupuesto, Ofertas Amazon
   if (
     category === "marcos-por-presupuesto-y-ofertas" ||
     text.includes("barato") ||
@@ -485,7 +463,7 @@ export function getContextualAmazonProducts(
   ) {
     return {
       sectionTitle:
-        "Los 3 Marcos Digitales Wi‑Fi con Mejor Relación Calidad-Precio en Amazon EE. UU. ($0 de Suscripción)",
+        "Los 3 Marcos Digitales Wi‑Fi con Mejor Relación Calidad-Precio en Amazon EE. UU.",
       sectionSubtitle:
         "Modelos económicos y superventas con pantalla IPS táctil, 16/32 GB de memoria interna y aplicación gratuita para toda la familia.",
       products: [

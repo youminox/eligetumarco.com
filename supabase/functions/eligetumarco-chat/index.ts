@@ -57,11 +57,9 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
   "aura-carver-10-wifi": {
     id: "aura-carver-10-wifi",
     badge: "🏆 #1 El Más Fácil para Padres y Abuelos · Nube Ilimitada Gratis",
-    title: "Aura Carver 10.1\" HD Wi‑Fi Digital Picture Frame — Preconfiguración de Regalo sin Abrir la Caja y Nube Ilimitada ($0/mes)",
+    title: "Aura Carver 10.1\" HD Wi‑Fi Digital Picture Frame — Preconfiguración de Regalo sin Abrir la Caja y Nube Ilimitada",
     subtitle:
       "Pantalla IPS antirreflejos de 10.1\" con Smart Pairing (muestra 2 fotos verticales juntas), almacenamiento en la nube ilimitado gratis y envío desde el celular de toda la familia.",
-    rating: "4.8",
-    reviewsCount: "26.500+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Aura Carver 10.1 WiFi Digital Picture Frame Free Unlimited Cloud Storage")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Aura Carver 10.1 marco de fotos digital WiFi almacenamiento ilimitado")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -71,8 +69,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
     title: "Aura Mason 9\" 2K Full HD+ Wi‑Fi Digital Photo Frame — Proporción 4:3 Exacta a las Fotos del Celular (iPhone y Android)",
     subtitle:
       "Resolución ultra nítida 2K (1600×1200) en formato 4:3 que evita barras negras, gira automáticamente en vertical u horizontal y se preconfigura a distancia.",
-    rating: "4.8",
-    reviewsCount: "14.200+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Aura Mason 9 inch 2K WiFi Digital Picture Frame Free Standing")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Aura Mason marco digital WiFi 2K rotacion automatica")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -81,9 +77,7 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
     badge: "💾 #1 Calidad-Precio con 32 GB Internos + MicroSD (Funciona con y sin Wi‑Fi)",
     title: "Frameo 10.1\" Wi‑Fi Digital Picture Frame IPS Touch Screen (32 GB de Memoria Interna + Ranura MicroSD)",
     subtitle:
-      "Ideal cuando tus padres o abuelos tienen Wi‑Fi inestable: guarda hasta 80.000 fotos en sus 32 GB internos y recibe fotos/videos gratis con la App Frameo ($0/mes).",
-    rating: "4.7",
-    reviewsCount: "38.900+",
+      "Ideal cuando tus padres o abuelos tienen Wi‑Fi inestable: guarda hasta 80.000 fotos en sus 32 GB internos y recibe fotos/videos gratis con la App Frameo.",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Frameo 10.1 Inch WiFi Digital Picture Frame 32GB IPS Touch Screen Auto Rotate")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Frameo 10.1 pulgadas marco digital WiFi 32GB pantalla tactil IPS")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -93,8 +87,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
     title: "Skylight Frame 10\" Wi‑Fi Touch Digital Photo Frame — Envío Directo de Fotos por Email en Segundos",
     subtitle:
       "Cada marco tiene su propio correo (@ourskylight.com) para que tíos, primos y familiares envíen fotos desde cualquier celular o PC sin descargar aplicaciones.",
-    rating: "4.8",
-    reviewsCount: "31.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Skylight Frame 10 Inch WiFi Digital Picture Frame Email Photos Touch Screen")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Skylight Frame 10 pulgadas marco de fotos digital WiFi email")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -104,8 +96,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
     title: "Frameo 15.6\" Large Full HD (1920×1080) Wi‑Fi Digital Photo Frame — 32 GB Internos, Mesa o Pared",
     subtitle:
       "Pantalla gigante Full HD que permite a padres y abuelos ver cada rostro con claridad desde el sofá sin acercarse, con montaje VESA/pared y App Frameo gratuita.",
-    rating: "4.7",
-    reviewsCount: "11.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Frameo 15.6 Inch Large WiFi Digital Picture Frame 1920x1080 FHD IPS Touch Screen 32GB")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Frameo 15.6 pulgadas marco digital WiFi Full HD 1920x1080 32GB pared")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -115,8 +105,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
     title: "Aura Walden 15\" Anti-Glare Mat Wi‑Fi Digital Frame — Formato 4:3 de Galería con Paspartú Texturizado",
     subtitle:
       "Parece un cuadro impreso real gracias a su cristal mate sin reflejos y paspartú interior; incluye nube ilimitada gratis y kit para colgar en pared o poner en mesa.",
-    rating: "4.8",
-    reviewsCount: "6.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Aura Walden 15 Inch WiFi Digital Picture Frame Anti Glare Mat Wall Mount")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Aura Walden 15 pulgadas marco de fotos digital WiFi pared mate")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -126,19 +114,15 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
     title: "Nixplay 10.1\" Smart Digital Picture Frame Wi‑Fi Touch — Preconfiguración de Regalo, App iOS/Android y Email",
     subtitle:
       "Permite crear listas de reproducción compartidas entre hermanos y nietos, preconfigurar el regalo en la app y encenderse automáticamente al detectar presencia.",
-    rating: "4.6",
-    reviewsCount: "24.700+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Nixplay 10.1 Inch Touch Screen Digital Picture Frame WiFi Share Photos via App Email")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Nixplay 10.1 pulgadas marco digital de fotos WiFi pantalla tactil")}&tag=${AMAZON_TAG_ES}`,
   },
   "dragon-touch-classic-10": {
     id: "dragon-touch-classic-10",
-    badge: "💵 Mejor Marco Económico (< US$75) con 16/32 GB, MicroSD y USB",
+    badge: "💵 Mejor Marco Económico con 16/32 GB, MicroSD y USB",
     title: "Dragon Touch Classic 10 / Arzopa 10.1\" Wi‑Fi Digital Frame — Pantalla Táctil HD, Memoria Interna y Efecto Madera",
     subtitle:
       "Opción accesible con estética cálida de portarretrato tradicional: admite envío por App, correo electrónico, tarjeta MicroSD y memoria USB sin cuotas mensuales.",
-    rating: "4.6",
-    reviewsCount: "19.300+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Dragon Touch Classic 10 Digital Picture Frame WiFi IPS Touch Screen")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Dragon Touch Classic 10 marco de fotos digital WiFi tactil")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -148,8 +132,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
     title: "Amazon Echo Show 8 / Echo Show 15 — Marco de Fotos con Amazon Photos, Alexa en Español y Videollamadas Drop In",
     subtitle:
       "Convierte la pantalla en un marco digital continuo con el álbum familiar de Amazon Photos y permite llamar en video a tus padres o abuelos sin que tengan que pulsar nada.",
-    rating: "4.7",
-    reviewsCount: "89.000+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Amazon Echo Show 8 Smart Display with Alexa and Amazon Photos Digital Frame")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Amazon Echo Show 8 pantalla inteligente con Alexa y marco de fotos")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -159,8 +141,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
     title: "Tarjeta MicroSD SanDisk Ultra 64 GB / 128 GB Clase 10 A1 + Adaptador SD para Marcos Digitales Frameo y Kodak",
     subtitle:
       "Ideal para pre-cargar miles de fotos antiguas escaneadas y videos familiares antes de entregar el marco a tus abuelos o ampliar la memoria de cualquier marco Frameo.",
-    rating: "4.8",
-    reviewsCount: "142.000+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("SanDisk 64GB Ultra microSDXC UHS-I Memory Card with Adapter for Digital Photo Frame")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("SanDisk Ultra 64GB tarjeta microSDXC con adaptador para marco digital")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -582,7 +562,7 @@ Tu doble misión es:
 1. RESPONDER TODAS LAS DUDAS DEL USUARIO comparando modelos con rigor práctico según estos 4 criterios:
    - TAMAÑO DE PANTALLA Y PROPORCIÓN: 9" (2K formato 4:3 exacto a fotos de celular), 10.1" (el estándar favorito 16:10 con Smart Pairing de 2 fotos verticales juntas) y 15"/15.6" Full HD (ideal para colgar en pared o para abuelos con baja visión).
    - FACILIDAD DE CONFIGURACIÓN: cómo preconfigurar el marco antes de regalarlo (sin abrir la caja con el código QR de Aura, o pre-cargando el Wi‑Fi y las fotos) para que los padres o abuelos solo tengan que enchufarlo a la corriente.
-   - ALMACENAMIENTO Y SUSCRIPCIÓN: diferencia entre nube ilimitada 100 % gratuita sin suscripción ($0/mes en Aura Carver, Aura Mason, Aura Walden) frente a memoria interna de 32 GB (~80.000 fotos) + ranura MicroSD que sigue mostrando fotos aunque se corte el Wi‑Fi ($0/mes en Frameo 10.1" y 15.6").
+   - ALMACENAMIENTO Y SUSCRIPCIÓN: diferencia entre nube ilimitada 100 % gratuita sin suscripción frente a memoria interna de 32 GB (~80.000 fotos) + ranura MicroSD que sigue mostrando fotos aunque se corte el Wi‑Fi.
    - ENVÍO DE FOTOS DESDE VARIOS FAMILIARES: cómo hijos, nietos, hermanos y tíos envían fotos y videos desde iPhone o Android a miles de kilómetros usando la App gratuita (Aura, Frameo, Nixplay) o por correo electrónico directo (Skylight Frame).
    - Enlaza en tu respuesta a entre 1 y 3 guías de nuestro listado inferior usando Markdown exacto: [Título](${SITE}/categoria/slug/) e incluye sus slugs en "recommended_slugs".
 2. AYUDAR ACTIVAMENTE A QUE COMPREN EL MARCO DIGITAL EN AMAZON (${storeName}):
